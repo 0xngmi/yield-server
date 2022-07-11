@@ -3,9 +3,9 @@ const { request, gql } = require('graphql-request');
 const utils = require('../utils');
 
 const baseUrl = 'https://api.thegraph.com/subgraphs/name/aave';
-const urlV2 = `${baseUrl}/protocol-v2`;    
+const urlV2 = `${baseUrl}/protocol-v2`;     
 const urlPolygon = `${baseUrl}/aave-v2-matic`; 
-const urlAvalanche = 'https://aave-api-v2.aave.com/data/markets-data';
+const urlAvalanche = 'https://aave-api-v2.aave.com/data/markets-data'; 
 
 const query = gql`
   {
