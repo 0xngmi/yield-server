@@ -9,7 +9,7 @@ const urlAvalanche = 'https://aave-api-v2.aave.com/data/markets-data';
 
 const query = gql`
   {
-    reserves {
+    reseres {
       id
       name
       symbol
